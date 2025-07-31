@@ -1,0 +1,37 @@
+[
+  {
+    "symbol": "ETC",
+    "name": "Ethio Telecom",
+    "price": 180.5,
+    "changePercent": 1.2,
+    "imagePath": "assets/logos/ethiotelecom.jpeg"
+  },
+  {
+    "symbol": "CBE",
+    "name": "Commercial Bank of Ethiopia",
+    "price": 98.7,
+    "changePercent": -0.5,
+    "imagePath": "assets/logos/cbe.jpeg"
+  },
+  {
+    "symbol": "ETHAIR",
+    "name": "Ethiopian Airlines",
+    "price": 230.0,
+    "changePercent": 3.5,
+    "imagePath": "assets/logos/airlines.jpeg"
+  },
+  {
+    "symbol": "ETHIOELECTRIC",
+    "name": "Ethiopian Electric Power",
+    "price": 75.0,
+    "changePercent": 0.0,
+    "imagePath": "assets/logos/ethio-electric.jpeg"
+  },
+  {
+    "symbol": "MOHA",
+    "name": "Mohammed Hussein Ali Al Amoudi Group",
+    "price": 150.0,
+    "changePercent": 2.1,
+    "imagePath": "assets/logos/moha.jpeg"
+  }
+]
