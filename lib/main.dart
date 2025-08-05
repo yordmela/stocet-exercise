@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'screens/stock_list_page.dart';
+import 'screens/bond_list_page.dart'; // Import your Bond List Page
 
 void main() {
   runApp(const MyApp());
@@ -7,12 +8,18 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Stocet App',
+      title: 'Stock and Bond App',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: const StockListPage(),
+      // Remove home property
+      initialRoute: '/',  // Set your desired default route
+      routes: {
+        '/': (context) => const StockListPage(),
+        '/bonds': (context) => const BondListPage(),
+      },
       debugShowCheckedModeBanner: false,
     );
   }
