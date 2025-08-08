@@ -1,0 +1,22 @@
+[
+  {
+    "name": "ABC Investment Firm",
+    "type": "Investment Bank",
+    "licensedDate": "2023-05-10",
+    "summary": "Provides investment banking services in Ethiopia.",
+    "background": "Founded to support capital market operations in Ethiopia.",
+    "goals": "Enable IPOs and capital raising.",
+    "capital": "500 million ETB",
+    "preparedOn": "2023-04-15"
+  },
+  {
+    "name": "XYZ Brokerage",
+    "type": "Broker",
+    "licensedDate": "2023-07-12",
+    "summary": "Brokerage firm for buying and selling securities.",
+    "background": "Registered with EIC.",
+    "goals": "Ease investor participation in securities market.",
+    "capital": "200 million ETB",
+    "preparedOn": "2023-06-20"
+  }
+]

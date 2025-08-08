@@ -21,7 +21,7 @@ class _StockListPageState extends State<StockListPage> {
   }
 
   Future<void> loadStocks() async {
-    final jsonString = await rootBundle.loadString('assets/mock_stocks.json');
+    final jsonString = await rootBundle.loadString('assets/data/mock_stocks.json');
     final List<dynamic> jsonList = json.decode(jsonString);
     final loadedStocks = jsonList.map((json) => Stock.fromJson(json)).toList();
     setState(() {

@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:stocet/screens/home_screen.dart';
 import 'screens/stock_list_page.dart';
 import 'screens/bond_list_page.dart'; // Import your Bond List Page
 
 void main() {
-  runApp(const MyApp());
+  runApp(ProviderScope(child: const MyApp()));
 }
 
 class MyApp extends StatelessWidget {
@@ -19,6 +21,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => const StockListPage(),
         '/bonds': (context) => const BondListPage(),
+        '/cmsp': (context) =>  HomeScreen(), // Add CMSP route`
       },
       debugShowCheckedModeBanner: false,
     );
