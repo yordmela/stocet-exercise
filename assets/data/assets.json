@@ -1,0 +1,17 @@
+{
+  "stock": {
+    "name": "EthioTelecom Stock",
+    "type": "Stock",
+    "yield": 0.20
+  },
+  "bond": {
+    "name": "Ethiopian Government Bond",
+    "type": "Bond",
+    "yield": 0.10
+  },
+  "cash": {
+    "name": "Birr (Cash)",
+    "type": "Cash",
+    "yield": 0.07
+  }
+}

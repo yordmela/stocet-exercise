@@ -1,6 +1,6 @@
 # 📊 Stocet - Stock, Bond & CMSP Explorer
 
-**Stocet** is a Flutter mobile app designed to help users explore key elements of Ethiopia’s capital market: **Stocks**, **Bonds**, and **Capital Market Service Providers (CMSPs)**.
+**Stocet** is a Flutter mobile app designed to help users explore key elements of Ethiopia’s capital market: **Stocks**, **Bonds**, and **Capital Market Service Providers (CMSPs)**, and make investment decisions with a **Mini Investment Advisor** feature.
 
 Built with 💙 Flutter and ⚙️ Riverpod, this app is modular, cleanly structured, and fully offline using mock data.
 
@@ -11,6 +11,7 @@ Built with 💙 Flutter and ⚙️ Riverpod, this app is modular, cleanly struct
 - 📈 **Stock List Page** – View and sort Ethiopian stocks by performance.
 - 💵 **Bond List Page** – Explore bonds with coupon rate and maturity filters.
 - 🏢 **CMSP Explorer** – Discover registered capital market service providers with detailed educational profiles.
+- 🧠 **Mini Investment Advisor** – Calculate optimal asset allocation and expected return based on your capital and investor profile.
 - 🌗 Built-in light/dark support (WIP).
 - 💻 Works fully offline with local JSON data.
 
@@ -22,7 +23,7 @@ Built with 💙 Flutter and ⚙️ Riverpod, this app is modular, cleanly struct
 
 - ✅ Sorted stock list with performance data
 
-![Stock Sort](assets/screenshots/task1_sortby.png)
+![Stock Sort](assets/screenshots/task1_sortby.png)  
 ![Stock List](assets/screenshots/task1_stock.png)
 
 ---
@@ -43,14 +44,26 @@ Built with 💙 Flutter and ⚙️ Riverpod, this app is modular, cleanly struct
 
 ---
 
+### 4️⃣ Task 4: Mini Investment Advisor
+
+- ✅ 3-step flow to set capital, view allocation, and see projected returns
+- ✅ Auto allocation logic based on Active/Passive investor types
+- ✅ Visual breakdown and success/failure goal indication
+
+![Setup Screen](assets/screenshots/task4_setup.png)  
+![Allocation Screen](assets/screenshots/task4_allocation.png)  
+![Result Screen](assets/screenshots/task4_result.png)
+
+---
+
 ## 🗂 Folder Structure
 
 ```bash
 lib/
 ├── main.dart
-├── models/           # Data models (Stock, Bond, CMSP)
+├── models/           # Data models (Stock, Bond, CMSP, Portfolio)
 ├── providers/        # Riverpod providers
-├── screens/          # All pages (Stock, Bond, CMSP)
+├── screens/          # All pages (Stock, Bond, CMSP, Portfolio)
 ├── widgets/          # Reusable UI components
 └── assets/
     └── data/         # Local mock JSON files

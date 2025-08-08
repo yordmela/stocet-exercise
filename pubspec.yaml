@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   intl: ^0.20.2
   flutter_riverpod: ^2.6.1
+  fl_chart: ^1.0.0
 
 dev_dependencies:
   flutter_test:
@@ -68,10 +69,14 @@ flutter:
     - assets/logos/moha.jpeg
     - assets/data/mock_stocks.json
     - assets/data/cmsps.json
+    - assets/data/assets.json
     - assets/screenshots/task1_sortby.png
     - assets/screenshots/task1_stock.png
     - assets/screenshots/task2_bond.png
     - assets/screenshots/task3_cmsp.png
+    - assets/screenshots/task4_allocation.png
+    - assets/screenshots/task4_result.png
+    - assets/screenshots/task4_setup.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
