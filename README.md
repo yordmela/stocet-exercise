@@ -68,6 +68,18 @@ Built with 💙 Flutter and ⚙️ Riverpod, this app is modular, cleanly struct
 
 ---
 
+
+### 4️⃣ Task 6: Order Book Simulation
+
+- ✅ Two screens: order book (bids, asks, stops) and new order form.
+- ✅ Supports market, limit, and stop orders with automatic matching and sorting.
+- ✅ Highlights best bid/ask; fully offline and in-memory.
+
+![new order form](assets/screenshots/task6_neworder.png)  
+![order book](assets/screenshots/task6_book.png)
+
+---
+
 ## 🗂 Folder Structure
 
 ```bash
