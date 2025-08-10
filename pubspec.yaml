@@ -77,6 +77,8 @@ flutter:
     - assets/screenshots/task4_allocation.png
     - assets/screenshots/task4_result.png
     - assets/screenshots/task4_setup.png
+    - assets/screenshots/task5_indicators.png
+    - assets/data/indicators.json
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:stocet/screens/allocation_screen.dart';
 import 'package:stocet/screens/home_screen.dart';
+import 'package:stocet/screens/indicators_app/indicator_home_page.dart';
 import 'package:stocet/screens/result_screen.dart';
 import 'package:stocet/screens/setup_screen.dart';
 import 'screens/stock_list_page.dart';
@@ -28,6 +29,7 @@ class MyApp extends StatelessWidget {
         '/portfolio': (context) => const SetupScreen(),
         '/allocation': (context) => const AllocationScreen(),
         '/result': (context) => const ResultScreen(),
+        '/indicators': (context) => const IndicatorHomePage(), // Add your indicators page route
       },
       debugShowCheckedModeBanner: false,
     );

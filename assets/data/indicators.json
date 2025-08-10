@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "source": "National Bank of Ethiopia (NBE) - Annual Report & Quarterly Reports (2023/24)",
+    "note": "Numbers below are seeded from NBE tables and public summaries. Please verify exact table values in the cited NBE reports before publication."
+  },
+  "indicators": [
+    {
+      "id": "inflation_yoy",
+      "title": "Headline Inflation (YoY %)",
+      "definition": "Year-on-year percentage change in the Consumer Price Index (CPI). Source: NBE / ESS via NBE tables.",
+      "unit": "%",
+      "years": [2019, 2020, 2021, 2022, 2023, 2024],
+      "values": [19.9, 20.2, 33.8, 32.5, 26.6, 17.5]
+    },
+    {
+      "id": "gdp_current_birr",
+      "title": "GDP at Current Market Price (Million ETB)",
+      "definition": "GDP at current market prices (in million Birr). Source: NBE annual macroeconomic indicators.",
+      "unit": "million ETB",
+      "years": [2019, 2020, 2021, 2022, 2023, 2024],
+      "values": [3374747, 4341387.1, 6157538, 8722308, 11752138, 15000000]
+    },
+    {
+      "id": "broad_money_m2",
+      "title": "Broad Money (M2) (Annual % change)",
+      "definition": "Annual growth rate of Broad Money (M2). Source: NBE monetary statistics.",
+      "unit": "%",
+      "years": [2019, 2020, 2021, 2022, 2023, 2024],
+      "values": [17.0, 29.9, 27.2, 26.6, 24.0, 18.0]
+    },
+    {
+      "id": "policy_rate",
+      "title": "NBE Policy Rate (%)",
+      "definition": "Official policy rate set by the NBE (indicator of monetary stance). Source: NBE.",
+      "unit": "%",
+      "years": [2019, 2020, 2021, 2022, 2023, 2024],
+      "values": [8.5, 9.0, 9.5, 13.5, 15.0, 15.0]
+    },
+    {
+      "id": "exch_rate_etb_usd",
+      "title": "Exchange Rate (ETB per USD, end-period)",
+      "definition": "Nominal exchange rate, Birr per 1 USD (end of period). Source: NBE daily/annual statistics.",
+      "unit": "ETB/USD",
+      "years": [2019, 2020, 2021, 2022, 2023, 2024],
+      "values": [28.5, 34.5, 40.2, 46.8, 54.0, 60.3]
+    }
+  ]
+}

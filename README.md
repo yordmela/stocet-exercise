@@ -56,6 +56,18 @@ Built with 💙 Flutter and ⚙️ Riverpod, this app is modular, cleanly struct
 
 ---
 
+
+### 4️⃣ Task 5: Economic Indicators Tracker
+
+- ✅ Select up to 5 indicators from NBE’s 2023–2024 annual report
+- ✅ Swipe between charts (2019–2024) for each selected indicator
+- ✅ Offline fallback with assets/data/indicators.json
+- ✅ Definitions and data sources included in-app
+
+![Indicators Screen](assets/screenshots/task5_indicators.png)
+
+---
+
 ## 🗂 Folder Structure
 
 ```bash
